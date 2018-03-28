@@ -26,7 +26,7 @@ const processData = (fields, valid) => data => data.split("\n")
   .filter(obj => obj.hasOwnProperty(valid))
 
 function updateData() {
-  fetch('http://webrates.truefx.com/rates/connect.html?f=csv')
+  fetch('https://webrates.truefx.com/rates/connect.html?f=csv')
     .then(response=>response.text())
     .then(processData(fields, "timestamp"))
     .then(result => {
