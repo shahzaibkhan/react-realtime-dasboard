@@ -1,0 +1,86 @@
+body {
+    background-color: #101214;
+    font-size: 24pt;
+    padding: 0px;
+	margin: 0px
+}
+table {
+    padding: 0;
+    border-spacing: 0;
+    width: 100%;
+}
+td:first-child {
+  padding-right: 1rem;
+}
+footer {
+    float: none;
+    font-size: 13px;
+    background: #2a2a2a;
+    padding: 15px 0px;
+    font-family: 'PT Sans';
+    color: #90c564;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 33px;
+}
+tr {
+    background: #2a2a2a;
+    width: 283px;
+    display: inline-block;
+    height: 283px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+footer a {
+    color: #90c564;
+	text-decoration:none;
+}
+div#root {
+    width: 1176px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+.currencyrate {
+    width: 1156px;
+    margin: 20px auto;
+    display: block;
+    background: #222222;
+    color: white;
+    font-family: Helvetica,Source Sans Pro,Arial;
+    padding: 20px 0px;
+    border: 6px solid #2a2a2a;
+    font-size: 25px;
+    max-width: 100%;
+    text-align: center;
+}
+div#root {
+    width: 1176px;
+    margin: 0 auto;
+}
+.changed-true {
+  background-color: #ccc;
+}
+
+td.currencyPair {
+    font-family: Helvetica,Source Sans Pro,Arial;
+    color: white;
+    font-size: 17px;
+    display: block;
+    position: relative;
+    top: 149px;
+    left: 18px;
+    text-align: left;
+}
+td.price {
+    font-family: Helvetica,Source Sans Pro,Arial;
+    font-size: 83px;
+    padding-left: 18px;
+}
+td.price sup {
+    font-size: 19px;
+    position: relative;
+    top: -21px;
+}
